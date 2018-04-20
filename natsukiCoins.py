@@ -75,7 +75,7 @@ reddit = praw.Reddit(client_id=library['client_id'],
 print(reddit.user.me())
 
 #################################
-# Determine the most recent processed comment and complete nickel count from previous run
+# Load the most recent processed comment and complete nickel count from previous run
 #################################
 with open('datestamp') as f:
   datestamp = f.read()
