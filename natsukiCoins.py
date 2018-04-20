@@ -1,11 +1,19 @@
 #!/usr/bin/python
 
+
+
 import json
 import praw
 import pprint 
 import re 
 import time
 import datetime
+
+__author__ = "Mobus Dorphin"
+__license__ = "GPL"
+__email__ = "celestialtuba@gmail.com"
+
+
 def finish():
   print("Number of nickles: {}".format(matchCount))
   print("That totals ${}!".format(float(matchCount) * .05))
